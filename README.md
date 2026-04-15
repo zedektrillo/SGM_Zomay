@@ -33,3 +33,36 @@ El sistema sigue una arquitectura de capas diseñada para la escalabilidad:
 5. [Documentación Técnica (Wiki)](https://github.com/zedektrillo/SGM_Zomay/wiki)
 6. [Roadmap del Proyecto](#roadmap)
 7. [Guía de Contribución](#contribución)
+
+   ---
+
+## 2. Requerimientos del Proyecto
+
+Para asegurar el correcto funcionamiento y despliegue del sistema **SGM-Zomay**, se han definido los siguientes estándares técnicos:
+
+### A. Infraestructura y Servidores
+* [cite_start]**Servidor de Aplicaciones:** No se requiere un servidor de aplicaciones externo (como Tomcat o GlassFish) debido a que la arquitectura actual es una aplicación de escritorio basada en **Java Swing**. [cite: 31]
+* [cite_start]**Servidor Web:** No aplica en esta fase; el acceso es local para el personal administrativo del salón. [cite: 31]
+* **Base de Datos:** El sistema está diseñado para integrarse con **MySQL 8.0** en fases posteriores. [cite_start]Actualmente, la persistencia se maneja mediante estructuras de datos en memoria y archivos locales. [cite: 28, 33]
+
+### B. Especificaciones de Software (Stack Tecnológico)
+* **Versión de Java:** Java SE Development Kit (JDK) **8 o superior**. [cite_start]Se recomienda JDK 17 para mayor estabilidad. [cite: 32]
+* [cite_start]**IDE (Entorno de Desarrollo):** **NetBeans 12.0** o superior para el manejo de formularios JFrame y compilación con Maven. [cite: 31]
+* [cite_start]**Gestor de Dependencias:** **Apache Maven**, encargado de gestionar el ciclo de vida del proyecto y las librerías externas. [cite: 32]
+
+### C. Paquetes y Librerías Adicionales
+* [cite_start]**JUnit 5:** Utilizado para la automatización de pruebas unitarias que validan la lógica de la clase `Evento.java`. [cite: 26, 34]
+* [cite_start]**GitHub Actions:** Implementado como el motor de Integración Continua (CI) para validar que el código sea estable antes de cada commit. [cite: 25, 26, 34]
+
+
+---
+
+## 3. Instalación
+
+Para poner en marcha el ambiente de desarrollo y ejecutar la solución, siga estos pasos detallados:
+
+### A. Configuración del Ambiente de Desarrollo
+1. **Clonación del Repositorio:**
+   Abra una terminal y ejecute el siguiente comando para obtener el código fuente:
+   ```bash
+   git clone [https://github.com/zedektrillo/SGM_Zomay.git](https://github.com/zedektrillo/SGM_Zomay.git)
