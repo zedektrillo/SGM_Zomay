@@ -66,3 +66,12 @@ Para poner en marcha el ambiente de desarrollo y ejecutar la solución, siga est
    Abra una terminal y ejecute el siguiente comando para obtener el código fuente:
    ```bash
    git clone [https://github.com/zedektrillo/SGM_Zomay.git](https://github.com/zedektrillo/SGM_Zomay.git)
+
+## Preparación y Ejecución Local
+
+Para validar el funcionamiento del sistema en un entorno local, siga estas instrucciones:
+
+### Compilación con Maven
+El proyecto utiliza **Maven** para gestionar el ciclo de vida. Ejecute el siguiente comando en la terminal desde la raíz del proyecto:
+```bash
+mvn clean compile
