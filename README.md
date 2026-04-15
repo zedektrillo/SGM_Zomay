@@ -75,3 +75,14 @@ Para validar el funcionamiento del sistema en un entorno local, siga estas instr
 El proyecto utiliza **Maven** para gestionar el ciclo de vida. Ejecute el siguiente comando en la terminal desde la raíz del proyecto:
 ```bash
 mvn clean compile
+
+##  4. Configuración
+
+### Configuración del Producto
+La administración de dependencias y la estructura del proyecto se gestionan exclusivamente a través del archivo **`pom.xml`**. 
+* **ArtifactId:** `SGM_Zomay`
+* **Versión:** `1.0-SNAPSHOT`
+* **Dependencias:** JUnit 5 para el motor de pruebas automáticas.
+
+### Configuración de Requerimientos
+No se requieren variables de entorno externas ni configuraciones de servidor adicionales para esta fase. El sistema utiliza la configuración estándar de la **Java Virtual Machine (JVM)** para ejecutar formularios JFrame.
