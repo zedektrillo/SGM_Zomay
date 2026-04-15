@@ -4,7 +4,7 @@ Este proyecto forma parte del desarrollo académico para la materia de Computaci
 
 ---
 
-## 📖 Resumen Ejecutivo
+## Resumen 
 
 ### Descripción
 El **SGM-Zomay** (Sistema de Gestión de Maniobras Zomay) es una aplicación robusta desarrollada en Java diseñada para centralizar la administración de eventos sociales (aniversarios, XV años, bodas). El sistema permite la gestión de contratos, cronogramas de servicios y coordinación de proveedores en una plataforma única.
@@ -24,7 +24,7 @@ El sistema sigue una arquitectura de capas diseñada para la escalabilidad:
 
 ---
 
-## 📑 Tabla de Contenidos (ToC)
+##  Tabla de Contenidos (ToC)
 
 1. [Descripción General](#descripción)
 2. [Requerimientos del Sistema](#requerimientos)
